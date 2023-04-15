@@ -15,3 +15,10 @@ for i in range(message_length):
   keystream.append(num%26)
   return keystream
   
+  
+  def vigenere_encrypt(message, seed):
+    message = message.upper()
+    keystream = generate_keystream(seed, len(message))
+    encrypted_message = ''
+    #Enkriptojme mesazhin duke shtuar secilin karakter te mesazhot me karakterin perkates te keystream-it
+  
