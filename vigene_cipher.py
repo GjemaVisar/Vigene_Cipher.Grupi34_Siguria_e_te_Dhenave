@@ -12,4 +12,6 @@ for i in range(message_length):
   seed^=seed>>17
   seed^=seed<<5
   num=seed&0x7fffffff
+  keystream.append(num%26)
+  return keystream
   
