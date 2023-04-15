@@ -38,7 +38,7 @@ def generate_keystream(seed, message_length):
           decrypted_message += chr(num + 65)
       return decrypted_message
 
-message=input('Shkruani tekstin që deshironi të ennkriptoni:')
+message=input('Shkruani nje tekst:')
 seed=input('Jepni seed-in si integer ose string: ')
 encrypted_message=vigenere_encrypt(message,seed)
 print('Mesazhi i enkriptuar: '+encrypted_message)
