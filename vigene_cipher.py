@@ -23,7 +23,25 @@ def generate_keystream(seed, message_length):
     encrypted_message = ''
     #Enkriptojme mesazhin duke shtuar secilin karakter te mesazhit me karakterin perkates te keystream-it
     for i in range(len(message)):
-      num = (ord(messasge[i]) - 65 + keystream[i]) % 26
+      num = (ord(message[i]) - 65 + keystream[i]) % 26
       encrypted_message += chr(num + 65)
     return encrypted_message
+
+
+  def vigenere_decrypt(encrypted_message, seed):
+      encrypted_message = encrypted_message.upper()
+      keystream = generate_keystream(seed, len(encrypted_message))
+      decrypted_message = ''
+      # Dekriptojme mesazhin duke zbritur secilin karakter te mesazhit me karakterin perkates te keystream-it
+
+
+
+
+
+
+
+
+
+
+
   
