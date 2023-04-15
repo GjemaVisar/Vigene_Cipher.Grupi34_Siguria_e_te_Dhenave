@@ -17,7 +17,7 @@ def generate_keystream(seed, message_length):
   return keystream
   
   
-  def vigenere_encrypt(message, seed):
+def vigenere_encrypt(message, seed):
     message = message.upper()
     keystream = generate_keystream(seed, len(message))
     encrypted_message = ''
@@ -28,7 +28,7 @@ def generate_keystream(seed, message_length):
     return encrypted_message
 
 
-  def vigenere_decrypt(encrypted_message, seed):
+def vigenere_decrypt(encrypted_message, seed):
       encrypted_message = encrypted_message.upper()
       keystream = generate_keystream(seed, len(encrypted_message))
       decrypted_message = ''
@@ -40,7 +40,7 @@ def generate_keystream(seed, message_length):
 
 message=input('Shkruani nje tekst:')
 seed=input('Jepni seed-in si integer ose string: ')
-encrypted_message=vigenere_encrypt(message,seed)
+encrypted_message = vigenere_encrypt(message, seed)
 print('Mesazhi i enkriptuar: '+encrypted_message)
 decrypted_message=vigenere_decrypt(encrypted_message,seed)
 print('Mesazhi i dekriptuar: '+decrypted_message)

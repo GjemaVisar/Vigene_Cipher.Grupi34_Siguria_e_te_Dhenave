@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc21897-beeb-43b7-9337-506c4f23883a" name="Changes" comment="vigene_cipher">
+    <list default="true" id="7dc21897-beeb-43b7-9337-506c4f23883a" name="Changes" comment="decrypted_message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vigene_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/vigene_cipher.py" afterDir="false" />
     </list>
@@ -58,11 +61,27 @@
       <option name="project" value="LOCAL" />
       <updated>1680808419964</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes and vigene_decrypt">
+      <created>1681569490441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681569490441</updated>
+    </task>
+    <task id="LOCAL-00004" summary="decrypted_message">
+      <created>1681569536305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681569536305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vigene_cipher" />
-    <option name="LAST_COMMIT_MESSAGE" value="vigene_cipher" />
+    <MESSAGE value="changes and vigene_decrypt" />
+    <MESSAGE value="decrypted_message" />
+    <option name="LAST_COMMIT_MESSAGE" value="decrypted_message" />
   </component>
 </project>
