@@ -21,4 +21,8 @@ for i in range(message_length):
     keystream = generate_keystream(seed, len(message))
     encrypted_message = ''
     #Enkriptojme mesazhin duke shtuar secilin karakter te mesazhot me karakterin perkates te keystream-it
+    for i in range(len(message)):
+      num = (ord(messasge[i]) - 65 + keystream[i]) % 26
+      encrypted_message += chr(num + 65)
+    return encrypted_message
   
