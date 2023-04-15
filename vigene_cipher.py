@@ -21,7 +21,7 @@ def generate_keystream(seed, message_length):
     message = message.upper()
     keystream = generate_keystream(seed, len(message))
     encrypted_message = ''
-    #Enkriptojme mesazhin duke shtuar secilin karakter te mesazhot me karakterin perkates te keystream-it
+    #Enkriptojme mesazhin duke shtuar secilin karakter te mesazhit me karakterin perkates te keystream-it
     for i in range(len(message)):
       num = (ord(messasge[i]) - 65 + keystream[i]) % 26
       encrypted_message += chr(num + 65)
